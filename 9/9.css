@@ -1,0 +1,200 @@
+header{
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.664);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.89);
+  
+  
+}
+.konteiner p{
+  font-size: 30px;
+  color: antiquewhite;
+
+
+}
+.konteiner{
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  right: 30px;
+
+}
+nav a{
+  color: antiquewhite;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+a:hover{
+  background-color: goldenrod;
+  line-height: 50px;
+}
+
+
+.keyframe{
+  width: 100px;
+  height: 33px;
+  color: aliceblue;
+  font-size: 25px;
+  text-decoration: underline ;
+  background-color: rgb(68, 68, 16);
+  animation-name: keyframe;
+  animation-timing-function:ease-out;
+  animation-duration: 5s;
+  animation-direction:unset;
+  animation-iteration-count:infinite;
+  position:relative;
+
+
+}
+@keyframes keyframe{
+  0%{
+    background-color: rgb(68, 68, 16);
+    top: 0px;left: 0;
+  }
+  25%{
+    background-color: brown;
+    top: 0px; left: 100%;
+  }
+ 
+  
+} 
+
+section{
+  border-radius: 20px;
+  margin: 20px;
+
+  padding: 5px;
+  background-color: lightgray;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+section >h2,p {
+   
+   margin: 10px;
+   padding: 5px;
+
+}
+
+
+#aside{
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  
+  padding-left: 50px;
+  margin-left: 50px;
+  float: right;
+}
+aside{
+  color: antiquewhite;
+  
+  
+ 
+}
+.imgclas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  
+ 
+  
+  
+}
+span{
+  background-color: rgba(255, 255, 0, 0.452);
+  border-radius: 5px;
+  display: block;
+  color: black;
+  
+}
+#paragrafi{
+  font-size: 22px;
+  width: 500px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  
+  
+}
+.mainkonteiner{
+  width: 1450px;
+  height: 400px;
+  background-color:rgba(0, 0, 0, 0.247);
+}
+#content{
+  font-size: 40px;
+  color: #dedede;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+.mainkonteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.pirveli{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  color: #dedede;
+  display: flex;
+ 
+  text-align: center;
+  gap: 10px;
+
+}
+.meore{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  color: #dedede9c;
+  
+  
+
+}
+.mesame{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  color: #dedede8c;
+
+}
+.meotxe{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  color: #dedede94;
+
+
+}
+.meore ,ul,li{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 0;
+  
+}
+
+  
+
